@@ -1,0 +1,53 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    
+    int  num1 ;
+    int  num2 ;
+    int  sum , Difference , Division , Average , Reminder  ;
+    
+    
+    cout << " please entered the first number. " ;
+    cin >> num1 ;
+    
+    cout << " please entered the second number. " ;
+    cin >> num2 ;
+    
+    
+    // sum of the two numbers. ;
+    sum = num1 + num2 ; 
+    cout <<  " The sum of " << num1 << " and " << num2 << " is " << sum << endl ;
+    
+    
+    
+    //Difference of two numbers. ; 
+    Difference = num1 - num2 ;
+    cout <<  " The Difference of " << num1 << " and " << num2 << " is " << Difference << endl ;
+    
+    
+    
+    // Average of two numbers. ;
+    Average = num1 * num2 ;
+    cout << " The Average of " << num1 << " and " << num2 << " is " << Average << endl ;
+    
+    
+    
+    //Division of two numbers. ;
+    Division = num1 / num2 ;
+    cout << " The Division of " << num1 << " and " << num2 << " is " <<  Division << endl ;
+    
+    
+    
+    // Reminder of two numbers. ;
+    Reminder = num1 % num2 ;
+    cout << " The Reminder of " << num1 << " and " << num2 << " is " << Reminder << endl ;  
+    
+     
+     cout << " \n \t CS 23/303 \n " ;
+     cout << " \n \t Date 8 Nov 2023 \n  " ;
+    
+    
+    return 0;
+}
